@@ -11,7 +11,6 @@ function setup(){
 
 function draw(){
     image(video, 0, 0, 550, 400);
-  
  fill(0, 230, 25);
  rect(100, 40, 350, 30);
  rect(45, 40, 30, 300);
@@ -24,6 +23,8 @@ function draw(){
  circle(450, 350, 100);
 
 }
-take_snapshot();{
-    save('firstp5.png');
+
+
+function take_snapshot(){
+    save('MyFunnyPhoto.png');
 }
